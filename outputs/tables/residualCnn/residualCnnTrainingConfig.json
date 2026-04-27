@@ -1,0 +1,11 @@
+{
+  "imageSize": 192,
+  "batchSize": 24,
+  "learningRate": 0.0003,
+  "weightDecay": 0.0002,
+  "numEpochs": 130,
+  "earlyStoppingPatience": 26,
+  "labelSmoothing": 0.0,
+  "useClassWeights": true,
+  "randomSeed": 27
+}

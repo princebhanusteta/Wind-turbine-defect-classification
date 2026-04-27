@@ -1,0 +1,5 @@
+modelName,representation,selectionRule,finalVariant,keySettings
+RGB HOG + Logistic Regression,RGB HOG,Validation macro F1,Validation-selected classical winner,"image=144; ppc=(16,16); ori=9; C=0.1; classWeight=balanced"
+RGB HOG + Linear SVM,RGB HOG,Validation macro F1,Validation-selected SVM artifact,"image=144; ppc=(16,16); ori=9; C=0.007; classWeight=balanced"
+RGB HOG + MLP,RGB HOG,Validation macro F1,final_deep_wd15e3,"hiddenDims=(1024, 512, 256); dropout=0.35; BN=True; lr=0.001; wd=0.0015; batch=64"
+Residual CNN,Raw RGB crop,Validation macro F1,cnn_img192_anchor_wd2e4,"image=192; batch=24; baseChannels=32; stageBlocks=(2, 2, 2, 2); dropout=0.2; lr=0.0003; wd=0.0002"

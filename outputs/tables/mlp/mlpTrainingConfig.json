@@ -1,0 +1,17 @@
+{
+  "imageSize": 144,
+  "pixelsPerCell": [
+    16,
+    16
+  ],
+  "orientations": 9,
+  "colorMode": "rgb",
+  "batchSize": 64,
+  "learningRate": 0.001,
+  "weightDecay": 0.0015,
+  "numEpochs": 120,
+  "earlyStoppingPatience": 20,
+  "labelSmoothing": 0.0,
+  "useClassWeights": true,
+  "randomSeed": 27
+}

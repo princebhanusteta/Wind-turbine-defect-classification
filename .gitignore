@@ -1,0 +1,43 @@
+# macOS / IDE
+.DS_Store
+.vscode/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+*.conda/
+
+# Raw dataset - not tracked
+dataRaw/
+data_raw/
+dataset/
+datasets/
+raw_data/
+
+# Generated crop images - reproducible from raw data
+dataProcessed/crops/
+
+# Trained model files / heavy model artifacts
+outputs/models/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+*.onnx
+
+# Temporary experiment folders
+runs/
+wandb/
+mlruns/
+
+# Large archives
+*.zip
+*.tar
+*.tar.gz

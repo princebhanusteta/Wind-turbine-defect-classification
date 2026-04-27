@@ -1,0 +1,61 @@
+<mxfile host="65bd71144e">
+    <diagram id="preprocessing-workflow" name="Page-1">
+        <mxGraphModel dx="1148" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="640" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Leakage-safe preprocessing workflow" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;fontColor=#222222;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="26" width="660" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Raw dataset&#xa;1065 images + XML +&#xa;official image-level split" style="shape=rounded;rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="110" width="220" height="96" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Raw-data audit&#xa;inventory check, bbox&#xa;validity, class counts" style="shape=rounded;rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="110" width="220" height="96" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Safe stem matching&#xa;stem-based matching;&#xa;filename mismatch as metadata" style="shape=rounded;rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="110" width="220" height="96" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Duplicate detection&#xa;SHA-256 hashing;&#xa;cross-split risk identified" style="shape=rounded;rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="250" width="220" height="96" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Crop extraction&#xa;one crop per defect;&#xa;tight crops retained" style="shape=rounded;rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="250" width="220" height="96" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Overlay / crop checks&#xa;visual box/crop&#xa;sanity confirmation" style="shape=rounded;rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="250" width="220" height="96" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Strict modeling manifest&#xa;duplicate-risk crops&#xa;excluded; final clean split" style="shape=rounded;rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#eef4fa;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="390" width="260" height="96" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Model preprocessing&#xa;RGB HOG for LR/SVM/MLP;&#xa;raw RGB + aug for CNN" style="shape=rounded;rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#eef4fa;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="390" width="280" height="96" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classicThin;endFill=1;fontSize=16;" parent="1" source="10" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classicThin;endFill=1;fontSize=16;" parent="1" source="11" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classicThin;endFill=1;fontSize=16;" parent="1" source="12" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classicThin;endFill=1;fontSize=16;" parent="1" source="13" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classicThin;endFill=1;fontSize=16;" parent="1" source="14" target="15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classicThin;endFill=1;fontSize=16;" parent="1" source="15" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classicThin;endFill=1;fontSize=16;" parent="1" source="16" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="All final models preserve the original image-level split and use the strict modeling manifest." style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;fontColor=#333333;fontSize=16;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="536" width="740" height="26" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

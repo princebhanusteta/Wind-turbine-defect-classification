@@ -1,0 +1,11 @@
+{
+  "inputFeatureDim": 2304,
+  "numClasses": 6,
+  "hiddenDims": [
+    1024,
+    512,
+    256
+  ],
+  "dropoutRate": 0.35,
+  "useBatchNorm": true
+}

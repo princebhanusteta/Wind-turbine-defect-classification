@@ -1,0 +1,25 @@
+modelName,split,className,precision,recall,f1,support
+RGB HOG + Logistic Regression,test,craze,0.7143,0.6579,0.6849,38
+RGB HOG + Logistic Regression,test,corrosion,0.75,0.7174,0.7333,46
+RGB HOG + Logistic Regression,test,surface_injure,0.6727,0.6981,0.6852,53
+RGB HOG + Logistic Regression,test,thunderstrike,0.7778,0.8235,0.8,17
+RGB HOG + Logistic Regression,test,crack,0.8,0.7742,0.7869,31
+RGB HOG + Logistic Regression,test,hide_craze,0.7857,0.8302,0.8073,53
+RGB HOG + Linear SVM,test,craze,0.7143,0.6579,0.6849,38
+RGB HOG + Linear SVM,test,corrosion,0.7381,0.6739,0.7045,46
+RGB HOG + Linear SVM,test,surface_injure,0.7037,0.717,0.7103,53
+RGB HOG + Linear SVM,test,thunderstrike,0.8824,0.8824,0.8824,17
+RGB HOG + Linear SVM,test,crack,0.8333,0.8065,0.8197,31
+RGB HOG + Linear SVM,test,hide_craze,0.7167,0.8113,0.7611,53
+RGB HOG + MLP,test,craze,0.7297,0.7105,0.72,38
+RGB HOG + MLP,test,corrosion,0.8611,0.6739,0.7561,46
+RGB HOG + MLP,test,surface_injure,0.6935,0.8113,0.7478,53
+RGB HOG + MLP,test,thunderstrike,0.8889,0.9412,0.9143,17
+RGB HOG + MLP,test,crack,0.8125,0.8387,0.8254,31
+RGB HOG + MLP,test,hide_craze,0.8302,0.8302,0.8302,53
+Residual CNN,test,craze,0.8684,0.8684,0.8684,38
+Residual CNN,test,corrosion,0.8372,0.7826,0.809,46
+Residual CNN,test,surface_injure,0.8302,0.8302,0.8302,53
+Residual CNN,test,thunderstrike,0.6818,0.8824,0.7692,17
+Residual CNN,test,crack,0.9091,0.9677,0.9375,31
+Residual CNN,test,hide_craze,0.9592,0.8868,0.9216,53

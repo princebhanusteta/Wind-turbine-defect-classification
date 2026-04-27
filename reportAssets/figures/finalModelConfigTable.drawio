@@ -1,0 +1,61 @@
+<mxfile host="65bd71144e">
+    <diagram id="final-model-config-table" name="Page-1">
+        <mxGraphModel dx="1230" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="700" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Final selected model configurations" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;fontColor=#222222;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="30" width="960" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Model" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f7fa;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;fontStyle=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="90" width="220" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Representation / model" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f7fa;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;fontStyle=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="90" width="270" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Key selected settings" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f7fa;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;fontStyle=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="90" width="650" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Logistic Regression" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="138" width="220" height="74" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="RGB HOG + LR" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="138" width="270" height="74" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="image 144; ppc 16×16; ori 9; C 0.1" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="138" width="650" height="74" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Linear SVM" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="212" width="220" height="74" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="RGB HOG + linear SVM" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="212" width="270" height="74" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="image 144; ppc 16×16; ori 9; C 0.007" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="212" width="650" height="74" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="HOG-based MLP" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="286" width="220" height="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="RGB HOG + MLP" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="286" width="270" height="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="1024–512–256; dropout 0.35; BN; batch 64; lr 1e-3; wd 1.5e-3" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="286" width="650" height="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Residual CNN" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="368" width="220" height="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="Raw RGB crop + residual CNN" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="368" width="270" height="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="image 192; c32; blocks 2–2–2–2; dropout 0.2; batch 24; lr 3e-4; wd 2e-4" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=16;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="368" width="650" height="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="All models were selected by validation macro-F1 on the strict modeling manifest." style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;fontColor=#333333;fontSize=16;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="464" width="1060" height="26" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

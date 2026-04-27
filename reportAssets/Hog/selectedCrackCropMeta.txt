@@ -1,0 +1,7 @@
+cropPath=/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/dataProcessed/crops/train/crack/train__397__obj001__crack.png
+cropFileName=train__397__obj001__crack.png
+subset=train
+className=crack
+cropWidth=426
+cropHeight=979
+cropArea=417054

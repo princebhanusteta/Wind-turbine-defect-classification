@@ -1,0 +1,3 @@
+imageFileName,imageStem,subset,fileSizeBytes,fileHash,duplicateGroupSize,subsetCount
+547.jpg,547,train,81502,47cc9396d36798c6968f28713da19f517129660a0ca3ee5e388964c2e137175f,2,2
+640.jpg,640,val,81502,47cc9396d36798c6968f28713da19f517129660a0ca3ee5e388964c2e137175f,2,2

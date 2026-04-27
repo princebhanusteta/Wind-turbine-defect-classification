@@ -1,0 +1,7 @@
+targetFileName,savedPath
+svmMacroF1Curve.png,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/reportAssets/figures/svmMacroF1Curve.png
+logisticMacroF1Curve.png,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/reportAssets/figures/logisticMacroF1Curve.png
+mlpTrainingValidationMacroF1.png,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/reportAssets/figures/mlpTrainingValidationMacroF1.png
+mlpTestConfusionMatrix.png,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/reportAssets/figures/mlpTestConfusionMatrix.png
+residualCnnTrainingValidationMacroF1.png,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/reportAssets/figures/residualCnnTrainingValidationMacroF1.png
+residualCnnTestConfusionMatrix.png,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/reportAssets/figures/residualCnnTestConfusionMatrix.png

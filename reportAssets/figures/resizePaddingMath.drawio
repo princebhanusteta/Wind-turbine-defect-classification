@@ -1,0 +1,43 @@
+<mxfile host="65bd71144e">
+    <diagram id="resize-padding-math" name="Page-1">
+        <mxGraphModel dx="1722" dy="1392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1260" pageHeight="520" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Aspect-ratio-preserving resize + padding (to square size S)" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;fontColor=#222222;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="24" width="840" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Input image&#xa;Width = W&#xa;Height = H" style="shape=rounded;rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=14;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="150" width="170" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Scale factor&#xa;scale = min(S / W, S / H)" style="shape=rounded;rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#eef4fa;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=14;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="150" width="220" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Resize with same scale&#xa;W_r = round(W * scale)&#xa;H_r = round(H * scale)" style="shape=rounded;rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#eef4fa;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=14;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="150" width="240" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Padding to target square S&#xa;pad_w = S - W_r,  pad_h = S - H_r&#xa;left = floor(pad_w/2),  right = pad_w - left&#xa;top = floor(pad_h/2),  bottom = pad_h - top" style="shape=rounded;rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=14;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="150" width="270" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Output image&#xa;Final size = S x S" style="shape=rounded;rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=1;fontColor=#222222;fontSize=14;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="1060" y="150" width="170" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classicThin;endFill=1;fontSize=14;" parent="1" source="10" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classicThin;endFill=1;fontSize=14;" parent="1" source="11" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classicThin;endFill=1;fontSize=14;" parent="1" source="12" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classicThin;endFill=1;fontSize=14;" parent="1" source="13" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Aspect ratio is preserved because both dimensions are multiplied by the same scale value." style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;fontColor=#333333;fontSize=14;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="320" width="760" height="28" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

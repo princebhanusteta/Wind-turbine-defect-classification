@@ -1,0 +1,4 @@
+subset,cropCount
+train,1097
+val,245
+test,238

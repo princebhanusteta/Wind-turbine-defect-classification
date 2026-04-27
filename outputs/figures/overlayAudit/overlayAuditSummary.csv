@@ -1,0 +1,17 @@
+imageFileName,imageStem,subset,objectCount,distinctClassCount,hasXmlFilenameMismatch,overlayPath,classSummary
+794.jpg,794,test,1,1,1,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/outputs/figures/overlayAudit/794_overlay.png,thunderstrike
+1013.jpg,1013,train,1,1,1,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/outputs/figures/overlayAudit/1013_overlay.png,surface_injure
+759.jpg,759,train,4,2,1,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/outputs/figures/overlayAudit/759_overlay.png,"craze, surface_injure"
+807.jpg,807,train,1,1,1,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/outputs/figures/overlayAudit/807_overlay.png,craze
+845.jpg,845,train,2,1,1,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/outputs/figures/overlayAudit/845_overlay.png,corrosion
+877.jpg,877,train,1,1,1,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/outputs/figures/overlayAudit/877_overlay.png,surface_injure
+1015.jpg,1015,val,1,1,1,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/outputs/figures/overlayAudit/1015_overlay.png,surface_injure
+745.jpg,745,val,1,1,1,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/outputs/figures/overlayAudit/745_overlay.png,surface_injure
+156.jpg,156,test,1,1,0,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/outputs/figures/overlayAudit/156_overlay.png,craze
+200.jpg,200,train,2,1,0,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/outputs/figures/overlayAudit/200_overlay.png,surface_injure
+290.jpg,290,train,1,1,0,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/outputs/figures/overlayAudit/290_overlay.png,thunderstrike
+599.jpg,599,train,1,1,0,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/outputs/figures/overlayAudit/599_overlay.png,corrosion
+248.jpg,248,val,2,1,0,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/outputs/figures/overlayAudit/248_overlay.png,corrosion
+305.jpg,305,val,2,1,0,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/outputs/figures/overlayAudit/305_overlay.png,crack
+433.jpg,433,val,1,1,0,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/outputs/figures/overlayAudit/433_overlay.png,crack
+685.jpg,685,val,2,1,0,/Users/princebhanusteta/Documents/Projects/MajorProject_ML/WTDAnalysis/outputs/figures/overlayAudit/685_overlay.png,craze

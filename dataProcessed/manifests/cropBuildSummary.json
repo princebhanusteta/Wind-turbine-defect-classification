@@ -1,0 +1,14 @@
+{
+  "cropPadding": 0,
+  "cropCount": 1584,
+  "uniqueSourceImageCount": 1065,
+  "classCount": 6,
+  "subsetCount": 3,
+  "mismatchCropCount": 367,
+  "exactDuplicateCropCount": 4,
+  "crossSplitDuplicateCropCount": 2,
+  "minCropWidth": 19,
+  "maxCropWidth": 1012,
+  "minCropHeight": 22,
+  "maxCropHeight": 1022
+}

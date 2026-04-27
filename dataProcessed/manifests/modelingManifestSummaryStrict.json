@@ -1,0 +1,10 @@
+{
+  "rawCropCount": 1584,
+  "strictModelingCropCount": 1580,
+  "excludedDuplicateCropCount": 4,
+  "excludedCrossSplitDuplicateCropCount": 2,
+  "strictUniqueSourceImageCount": 1061,
+  "strictTrainCropCount": 1097,
+  "strictValCropCount": 245,
+  "strictTestCropCount": 238
+}

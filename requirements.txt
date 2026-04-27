@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+pillow
+lxml
+scikit-learn
+scikit-image
+jupyter
+ipykernel
+torch
+torchvision
+torchaudio

@@ -1,0 +1,13 @@
+{
+  "inputChannels": 3,
+  "numClasses": 6,
+  "baseChannels": 32,
+  "stageBlockCounts": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "dropoutRate": 0.2,
+  "useBatchNorm": true
+}
